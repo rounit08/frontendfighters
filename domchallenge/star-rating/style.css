@@ -1,0 +1,23 @@
+.star__rating {
+  margin-left: 570px;
+  margin-top: 200px;
+  cursor: pointer;
+}
+
+.stars {
+  display: flex;
+}
+
+.star {
+  list-style: none;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.output {
+  margin-left: 700px;
+  font-size: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.white {
+  background-color: #e8e4e6;
+}
+
+.black {
+  background-color: #001e1d;
+}
+
+.red {
+  background-color: red;
+}
+
+.cell {
+  margin: 0;
+  padding: 0;
+  height: 64px;
+  width: 64px;
+}
+
+.board {
+  background-color: #000000;
+  padding: 0.5em;
+  border-radius: 10px solid red;
+  cursor: pointer;
+}
