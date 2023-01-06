@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30em;
+  height: fit-content;
+}
+
+.progress__wrapper {
+  width: 100%;
+  height: 3em;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.progress__bar {
+  width: 0;
+  height: 3em;
+  background-color: blue;
+}
+.progress__bar.animate {
+  animation: progress 3s 1 ease-in;
+}
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.btn {
+  background-color: #f8fafc;
+  border-radius: 3px;
+  border-color: blue;
+  width: fit-content;
+  margin-top: 1em;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+  font-weight: 500;
+}
