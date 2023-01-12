@@ -44,12 +44,14 @@ i> on click
 
 #### default 
 
-![image](https://user-images.githubusercontent.com/71965521/212140838-130ab5ec-23f5-4454-a229-998972226397.png)
+![image](https://user-images.githubusercontent.com/71965521/212142467-eb69ba08-52b9-47a2-b383-e5f07e943d32.png)
 
 #### on click on RUN
 
-![image](https://user-images.githubusercontent.com/71965521/212140954-5b59304e-2dac-4d60-a929-a83aa2335049.png)
+![image](https://user-images.githubusercontent.com/71965521/212142482-60d177d7-71e9-4813-933c-370c3d6b5ba7.png)
 
-#### on multiple RUN
+#### on multiple RUN- run "n" click times and decrease the counter on button by 1 after completion of one round 
 
-https://drive.google.com/file/d/1Kcr0QguIFuPj6xhOnPBCB17bdA4gp3Ju/view?usp=sharing
+![image](https://user-images.githubusercontent.com/71965521/212142506-4cce7619-ab4e-40c2-a824-4b78d40e11d2.png)
+
+
