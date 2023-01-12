@@ -37,3 +37,19 @@ i> on click
 ![13778ac815675a1cc3e28f9f7855e3eac4754e10](https://user-images.githubusercontent.com/71965521/212140466-310d19fc-897d-45c7-a160-a6dad93a1f00.jpg)
 
 
+
+# FRONTEND CHALLENGES
+
+## 1) Progress Bar
+
+#### default 
+
+![image](https://user-images.githubusercontent.com/71965521/212140838-130ab5ec-23f5-4454-a229-998972226397.png)
+
+#### on click on RUN
+
+![image](https://user-images.githubusercontent.com/71965521/212140954-5b59304e-2dac-4d60-a929-a83aa2335049.png)
+
+#### on multiple RUN
+
+https://drive.google.com/file/d/1Kcr0QguIFuPj6xhOnPBCB17bdA4gp3Ju/view?usp=sharing
