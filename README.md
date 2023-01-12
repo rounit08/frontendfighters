@@ -55,3 +55,14 @@ i> on click
 ![image](https://user-images.githubusercontent.com/71965521/212142506-4cce7619-ab4e-40c2-a824-4b78d40e11d2.png)
 
 
+## 2) Moving Elements(DRAG and DROP API in JavaScript)
+
+#### default
+
+![image](https://user-images.githubusercontent.com/71965521/212146608-d4255ecd-3f6a-4c6b-817b-d96d0aa606d7.png)
+
+#### on drag and drop
+
+![image](https://user-images.githubusercontent.com/71965521/212146724-2b2d630b-b821-454f-bf26-576cc54bbe5d.png)
+
+
