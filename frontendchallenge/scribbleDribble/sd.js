@@ -5,7 +5,6 @@ let prevMouseX,
   prevMouseY,
   snapshot,
   isDrawing = false,
-  selectedTool = "brush",
   brushWidth = 1,
   selectedColor = "#000";
 
