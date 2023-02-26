@@ -1,0 +1,15 @@
+.box1 {
+  height: 100vh;
+  background-color: rgb(182, 215, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  height: 100vh;
+  background-color: rgb(129, 129, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
