@@ -1,0 +1,90 @@
+.grid-container {
+  background-color: aquamarine;
+  height: 800px;
+  width: 900px;
+  border: 1px solid rgb(26, 26, 26);
+  /* display: grid; justified that we are using grid */
+  display: grid;
+  /*methods to  adjust height of columns  */
+  /* grid-template-columns: 133px 133px 133px; */
+  /* grid-template-columns: repeat(3, 133px); */
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* methods to adjust height of rows  */
+
+  /* grid-template-rows: 133px 133px 133px; */
+  /* grid-template-rows: repeat(3, 133px); */
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /* 1 fr means one fraction of entire widht/height available */
+
+  row-gap: 12px;
+  column-gap: 12px;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+.grid-item {
+  /* height: 122px;
+  width: 122px; */
+}
+
+/* as wehavediscussedaboutlinesinhtmlpageofgridwearesettingforthefirst
+item */
+.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: black;
+  color: white;
+}
+
+.grid-item-2 {
+  background-color: yellow;
+  color: white;
+}
+.grid-item-3 {
+  background-color: brown;
+  color: white;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.grid-item-4 {
+  background-color: yellowgreen;
+  color: white;
+}
+.grid-item-5 {
+  color: white;
+  background-color: red;
+}
+.grid-item-6 {
+  color: white;
+  background-color: violet;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.grid-item-7 {
+  color: white;
+  background-color: blue;
+  grid-column: 1 / span 2;
+}
+
+.grid-item-8 {
+  background-color: teal;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.grid-item-9 {
+  background-color: cadetblue;
+}
+
+.grid-item-10 {
+  background-color: palevioletred;
+  grid-column: 2 / span 2;
+}

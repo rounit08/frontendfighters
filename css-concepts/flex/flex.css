@@ -1,0 +1,23 @@
+/* without giving any css the items 1,2,3,4 displayed vertically
+that's what it is for default  */
+
+.flex-container {
+  /* after adding display flex the items 1,2,3,4 displayed horizontally */
+  display: flex;
+  /* default flex direction is horizontal i.e., row */
+  /* to make it column we use flex-direction */
+  /* flex-direction: column; */
+  /* justify-content: center; to make it to the center */
+  /* use justify content to make the items move to the center/top/botom/end/start  */
+  /* flex-wrap: wrap; */
+  /* this wrap property will align the items in order from 1 to 4 when window diminished */
+}
+
+.flex-item {
+  height: 20px;
+  width: 20px;
+  border: 1px black solid;
+  background-color: red;
+  padding: 2px;
+  margin: 3px;
+}
