@@ -2,7 +2,7 @@ const buttons = document.querySelectorAll("[data-carousel-btn]");
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
-    const offset = button.dataset.carouslButton === "next" ? 1 : -1;
+    const offset = button.dataset === "next" ? 1 : -1;
     const slides = button
       .closest("[data-carousel]")
       .querySelector("[data-slides]");
