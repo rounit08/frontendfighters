@@ -1,11 +1,29 @@
-const addBtn = document.querySelector(".widget_button");
 const getBtn = document.querySelector(".get");
+const form = document.querySelector(".form");
 
-let fruits = ["apple", "papaya"];
-addBtn.addEventListener("click", function () {
-  localStorage.setItem("halwai", fruits);
-});
+//===================
 
-getBtn.addEventListener("click", function () {
-  alert(localStorage.getItem("halwai"));
-});
+function popupOpen() {
+  document.getElementById("popup").style.display = "block";
+  document.getElementById("overlay").style.display = "block";
+}
+// Popup Close
+function popupClose() {
+  document.getElementById("popup").style.display = "none";
+  document.getElementById("overlay").style.display = "none";
+}
+
+// `form.addEventListener("click", function (e) {
+//   e.preventDefault();
+// });`
+
+function addNote() {
+  var newElement = document.createElement("p");
+  newElement.innerHTML = "CONTENTS";
+  localStorage.setItem("item", JSON.stringify(newElement));
+  // document.getElementById("id").appendChild(newElement);
+}
+
+document
+  .getElementById("id")
+  .appendChild(JSON.parse(localStorage.getItem("item")));

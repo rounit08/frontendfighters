@@ -12,10 +12,10 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Rubik+Iso&display=swap");
 
 .section {
-  height: 50vh;
+  height: 70vh;
   width: 50vw;
   background-color: rgba(255, 255, 255, 0.663);
-  margin-top: 25vh;
+  margin-top: 15vh;
   margin-left: 25vw;
   color: rgb(231, 177, 177);
   font-family: "Rubik Iso", cursive;
@@ -42,4 +42,96 @@ body {
   padding: 0;
   font-family: "Climate Crisis", cursive;
   cursor: cell;
+}
+
+/* kkkk */
+
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+/* Popup */
+.popup {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 101;
+  width: 500px;
+  height: 200px;
+  margin: auto;
+}
+
+.popup-inner {
+  position: relative;
+  padding: 1em;
+}
+input.s3-btn-close {
+  position: absolute;
+  top: -0.5em;
+  right: -0.5em;
+
+  background: wheat;
+  border: solid 2px white;
+  color: black;
+  cursor: pointer;
+
+  border-radius: 15px;
+  width: 20px;
+
+  outline: none;
+}
+
+input.s3-btn {
+  background: #f1f1f1;
+  border: none;
+  width: 200px;
+  height: 150px;
+  cursor: pointer;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+/* .s3-center {
+  text-align: center;
+} */
+
+#note {
+  width: 450px;
+  height: 150px;
+  font-size: large;
+  padding: 10px;
+  color: palevioletred;
+  border: 2px solid palevioletred;
+}
+
+#note:focus {
+  border: 2px solid palevioletred;
+}
+
+.save {
+  height: 30px;
+  width: 100px;
+  font-family: "Climate Crisis", cursive;
+  background-color: wheat;
+  border: none;
+}
+
+#id {
+  color: black;
 }

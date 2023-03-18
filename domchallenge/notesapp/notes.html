@@ -13,12 +13,26 @@
     <div class="section">
         NOTES APP
         <div class="widget_section">
-            <button class="widget_button">Add New Note</button>
+
+            <button class="widget_button" onclick="popupOpen()">Add New Note</button>
         </div>
         <div class="notes_section">
-            <div class="note">
-                <button class="get">get fruits</button>
-            </div>
+            <div class="note"> </div>
+            <div id="id"></div>
+
+        </div>
+
+    </div>
+    <div class="overlay" id="overlay" style="display:none;"></div>
+    <div class="popup" id="popup" style="display:none;">
+        <div class="popup-inner">
+            <input type="button" name="Close" class="s3-btn-close" onclick="popupClose();" value="&times;">
+
+            <form class="form">
+                <textarea id="note" placeholder="Enter Note"></textarea>
+                <button onclick="popupClose(); addNote()" class="save">Save Note</button>
+
+            </form>
         </div>
     </div>
 </body>
