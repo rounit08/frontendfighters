@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Rubik+Iso&display=swap");
+
+.section {
+  height: 50vh;
+  width: 50vw;
+  background-color: rgba(255, 255, 255, 0.663);
+  margin-top: 25vh;
+  margin-left: 25vw;
+  color: rgb(231, 177, 177);
+  font-family: "Rubik Iso", cursive;
+  text-shadow: 2px 0px rgb(255, 0, 0);
+  font-weight: 500;
+  text-align: center;
+  font-size: 40px;
+}
+
+.widget_section {
+  background-color: wheat;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+.widget_button {
+  border: none;
+  width: 300px;
+  height: 30px;
+  margin-top: 0px;
+  background: none;
+  color: rgb(213, 138, 0);
+
+  font-size: 40px;
+  padding: 0;
+  font-family: "Climate Crisis", cursive;
+  cursor: cell;
+}
