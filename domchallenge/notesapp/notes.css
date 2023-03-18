@@ -25,6 +25,11 @@ body {
   font-size: 40px;
 }
 
+.card {
+  height: 7vh;
+  width: 45vw;
+}
+
 .widget_section {
   background-color: wheat;
   margin-left: 130px;
