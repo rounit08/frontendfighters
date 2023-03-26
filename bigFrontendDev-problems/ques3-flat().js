@@ -37,3 +37,19 @@ const arr = [1, 2, 3, [4, [5, [6, [7, [8, [9, [10]]]]]]]];
 // // [1, 2, 3, 4]
 
 //building logic
+
+function flat(arr, depth = 1) {
+  const stack = arr.map((item) => [item, depth]);
+  const res = [];
+
+  while (stack.length > 0) {
+    const [item, itemDepth] = stack.pop();
+    if (Array.isArray(item) && itemDepth > 0) {
+      stack.push(...item.map((i) => [i, itemDepth - 1]));
+    } else {
+      res.push(item);
+    }
+  }
+
+  return res.reverse();
+}
