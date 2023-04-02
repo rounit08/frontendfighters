@@ -1,0 +1,9 @@
+Rules for JSX:
+
+    !allowed in jsx:                   solution for issues
+
+1> Variable declaration | system hi aisa hai
+2> NO loops | map/filter
+3> no function allowed | system hi aisa hai
+3>if else not allowed | ternary operator OG
+4>object rendering not possible | react can render arrays
