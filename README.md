@@ -1,6 +1,6 @@
 # FrontendFighters
 
-###Folder Structure: 
+### Folder Structure: 
 
 ![frontend fighters repo readme](https://user-images.githubusercontent.com/71965521/229893074-392d4af2-a777-419f-9d7c-9be1b39f93d1.png)
 
