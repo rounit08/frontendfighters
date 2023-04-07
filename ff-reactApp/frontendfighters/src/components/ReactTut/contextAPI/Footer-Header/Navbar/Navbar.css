@@ -1,0 +1,18 @@
+.navbar-light {
+  background-color: red;
+  color: blue;
+}
+
+.navbar-dark {
+  background-color: blue;
+  color: red;
+}
+
+nav {
+  height: 150px;
+}
+
+.navtext {
+  font-size: 80px;
+  margin-left: 15vw;
+}

@@ -1,0 +1,18 @@
+.footer {
+  height: 188px;
+  background-color: rgb(163, 188, 210);
+}
+
+.wrapper > input {
+  height: 25px;
+}
+
+.btn {
+  height: 50px;
+  width: 150px;
+  font-size: large;
+  cursor: pointer;
+  background-image: linear-gradient(blue, red);
+  margin-top: 50px;
+  margin-left: 350px;
+}
