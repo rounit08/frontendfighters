@@ -1,6 +1,9 @@
-# frontendfighters
-This repo has some challenges for FrontEnd Dev, developed using HTML, CSS, JS.
-{Sources: Sunny Puri's "the-dom-challenge" (Repo Link:  https://github.com/devkodeio/the-dom-challenge)  and Internet}
+# FrontendFighters
+
+### Folder Structure: 
+
+![frontend fighters repo readme](https://user-images.githubusercontent.com/71965521/229893074-392d4af2-a777-419f-9d7c-9be1b39f93d1.png)
+
 
 # DOM CHALLENGES
 
