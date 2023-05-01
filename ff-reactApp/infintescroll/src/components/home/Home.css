@@ -1,0 +1,76 @@
+body {
+  color: white;
+}
+
+.home-btn {
+  height: 50px;
+  width: 100px;
+  font-size: medium;
+  background-color: rgb(0, 139, 253);
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 85vw;
+  box-shadow: 0px 0px 2px 1px rgb(0, 139, 253);
+}
+
+.home-btn:hover {
+  transform: scale(1.12);
+}
+
+.user-details {
+  height: 80px;
+  width: 400px;
+  margin-left: 40%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid rgb(0, 139, 253);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.user-details p {
+  padding: 18px;
+  max-width: 120px;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.user-details img {
+  margin-left: 110px;
+  margin-right: 50px;
+  border-radius: 50%;
+  align-content: center;
+}
+
+.users h1 {
+  margin-left: 47%;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .home-btn {
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 145px;
+  }
+
+  .user-details {
+    height: 80px;
+    width: 340px;
+    margin-left: 22px;
+  }
+
+  .users h1 {
+    margin-left: 120px;
+  }
+}

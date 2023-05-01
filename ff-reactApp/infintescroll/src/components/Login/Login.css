@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+
+.login {
+  border: 2px solid rgb(0, 139, 253);
+  border-radius: 5%;
+  box-shadow: 2px 2px 20px 1px rgb(0, 139, 253);
+
+  background: url("../../images/login-bg.jpg") no-repeat center center;
+  background-size: 700px 500px;
+  margin-top: 10%;
+  height: 500px;
+  width: 400px;
+  margin-left: 700px;
+}
+.login_comp {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_comp input {
+  width: 290px;
+  height: 70px;
+  margin-left: 50px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.login_comp input:focus {
+  background: transparent;
+
+  border-bottom: 1px solid white;
+  border: none;
+
+  color: white;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.login_title {
+  font-family: "Sedgwick Ave Display", cursive;
+  color: white;
+  margin-left: 160px;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+  margin-left: 90px;
+  background-color: rgb(0, 139, 253);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: 0px 0px 2px 1px rgb(0, 139, 253);
+  border: none;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .login {
+    background-size: 1000px 700px;
+    margin-top: 250px;
+    height: 700px;
+    width: 500px;
+
+    margin-left: 135px;
+  }
+
+  .login_comp input {
+    width: 370px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .login_title {
+    margin-left: 200px;
+    margin-top: 90px;
+  }
+
+  .button {
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .login {
+    background-size: 1000px 700px;
+    margin-top: 150px;
+    height: 500px;
+    width: 300px;
+
+    margin-left: 55px;
+    margin-right: 100px;
+  }
+
+  .login_comp input {
+    width: 240px;
+    height: 70px;
+    margin-left: 30px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .login_title {
+    margin-left: 110px;
+  }
+
+  .button {
+    height: 50px;
+    width: 200px;
+
+    margin-left: 50px;
+  }
+}
