@@ -5,7 +5,7 @@ import Counter from "./questions/counter/Counter";
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <Counter maxValue={100} />
     </div>
   );
 }
