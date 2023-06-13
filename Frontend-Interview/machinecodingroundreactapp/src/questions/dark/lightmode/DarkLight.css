@@ -1,0 +1,37 @@
+/* light-theme.css */
+
+.darklight.light {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.darklight.light h1 {
+  color: #555;
+}
+
+.darklight.light button {
+  background-color: #ccc;
+  color: #333;
+}
+
+/* dark-theme.css */
+
+.darklight.dark {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+.darklight.dark h1 {
+  color: #eee;
+}
+
+.darklight.dark button {
+  background-color: #555;
+  color: #f5f5f5;
+}
+
+/* transition.css */
+
+.darklight {
+  transition: background-color 0.3s, color 0.3s;
+}
