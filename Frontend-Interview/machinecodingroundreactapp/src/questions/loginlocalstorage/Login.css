@@ -1,0 +1,37 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: 5%;
+  margin-left: 40%;
+  height: 300px;
+  background-color: rgb(238, 238, 238);
+  width: 400px;
+}
+
+.input > input {
+  border: 2px solid black;
+  border-radius: 2%;
+  padding: 10px;
+  margin: 10px;
+  height: 50px;
+  width: 300px;
+}
+.input > button {
+  border: 2px solid black;
+  border-radius: 2%;
+}
+
+.signup {
+  font-size: 15px;
+}
