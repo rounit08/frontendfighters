@@ -1,0 +1,38 @@
+.products {
+  margin: 20px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+}
+
+.prod {
+  border: 10px double;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.prod img {
+  height: 200px;
+  width: 270px;
+  object-fit: contain;
+}
+
+.pagination {
+  margin-left: 35%;
+  padding: 10px;
+}
+
+.pagination > span {
+  border: 1px solid;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.pagination > span::selection {
+  background-color: white;
+  color: black;
+}

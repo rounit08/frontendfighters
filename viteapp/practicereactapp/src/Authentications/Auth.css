@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.authentication {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 50vw;
+  padding: 10px;
+  align-items: center;
+}
+
+.authentication input {
+  margin: 1em;
+  height: 7%;
+  width: 25%;
+}

@@ -1,0 +1,60 @@
+body {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items {
+  height: 100px;
+  width: 500px;
+  background-color: whitesmoke;
+  margin: 10px;
+  text-align: center;
+  border: 2px dashed darkblue;
+}
+
+.dabba1:hover {
+  animation-name: animate-dabba1;
+  animation-duration: 5s;
+}
+
+@keyframes animate-dabba1 {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+.dabba2keandar {
+  height: 50px;
+  width: 50px;
+  border: 2px dotted;
+  position: relative;
+  background-color: rgb(115, 115, 247);
+}
+.dabba2:hover .dabba2keandar {
+  animation-name: moveToRight;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+}
+
+@keyframes moveToRight {
+  0% {
+    top: 28%;
+    left: 0%;
+  }
+  50% {
+    top: 0%;
+    left: 50%;
+  }
+  100% {
+    top: 28%;
+    left: 88%;
+  }
+}
