@@ -10,7 +10,6 @@ import "./App.css";
 import Login from "./Authentications/Login";
 import Signup from "./Authentications/Signup";
 import Dashboard from "./Authentications/Dashboard";
-import { ReachHub } from "./reachhub/Reachhub";
 
 function App() {
   // const [imageUrls, setImageurls] = useState([]);
@@ -41,7 +40,7 @@ function App() {
         </Routes>
       </Router> */}
       {/* hello vite app here */}
-      <ReachHub />
+      hello
     </>
   );
 }
